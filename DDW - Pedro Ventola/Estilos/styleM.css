@@ -1,0 +1,173 @@
+    /*ESTILO PADRÃO*/
+    
+    body, li, ul, p{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    font-size:25px;
+    font-family: "Doppio One", Arial ;
+    }
+    
+    a:hover{
+    background-color: #120487;
+    }
+    
+    
+     a{
+    cursor: pointer;
+    transition: 1s;
+    transition-timing-function: linear;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    }
+    
+  
+    
+    .header { 
+    background:none;	
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    }
+    
+    
+    .menu{
+    display:flex;
+    }
+    
+    .menu li{
+    margin-left: 15px;
+    }
+    
+    .menu li a {
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    }
+    
+    
+    body{
+    width: 100%;
+    height: 100%;
+    background:#f1f1f1;
+    color:#03041F;
+    background-image:
+    url("../Imagens/marshmello-moving-on.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130% 135%;
+    
+    }
+  
+    ::-webkit-scrollbar{
+     display: none;
+    }
+    
+
+  .joy1 { 
+    width: 150px;
+    height: 150px;
+    margin: 50px 0 20px 100px;
+    box-shadow: 0px 6px 20px 0 rgba(30, 29, 31, 0.7) ;
+  }
+
+
+
+    table, th, td {
+      border: 2px solid #000;
+      border-collapse: collapse;
+      color: #f1f1f1;
+      font-size: smaller;
+      border-spacing: 4px;
+      
+    }
+
+    .joy1t{ 
+      width: 300px;
+      height: 280px;
+      margin: 30px;
+      background-color:#03041F;
+  
+    }
+ 
+    th{
+    border-width: 3px;
+    }
+    
+    td{ 
+    padding-left: 5px; 
+    text-align: center;
+  }
+
+  /*SEGUNDA TABELA */
+
+  .joy2 { 
+    width: 150px;
+    height: 150px;
+    margin: -500px 0px 20px 220px;
+    box-shadow: 0px 6px 20px 0 rgba(30, 29, 31, 0.7) ;
+  }
+
+
+
+  .joy2t{
+    margin-left: 390px;
+    margin-top: -310px;
+    width: 300px;
+    height: 280px;
+    background-color:#03041F;
+   
+  }
+
+  /*TERCEIRA TABELA */
+
+  .extenSet{
+   background-color: #03041F;
+   max-height: 280px;
+   width: 300px;
+   overflow-y: scroll; 
+   margin-left: 755px;
+   margin-top: -279px;
+   overflow: scroll;
+   text-align: center;
+  }
+
+
+  .fortnite{
+    display: block;
+    margin-left: 820px;
+    margin-top: -485px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 6px 20px 0 rgba(30, 29, 31, 0.7) ; 
+  }
+
+  /*QUARTA TABELA */
+
+
+   
+  .joyt3{
+    
+    max-width: 250px;
+    height: 280px;
+    background-color:#03041F;  
+    margin-left: 1100px;
+    margin-top: 55px;
+    overflow-y: scroll;
+    text-align: center;  
+  }
+
+  .joy3{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 6px 20px 0 rgba(30, 29, 31, 0.7) ;  
+    display: block;
+    margin-left: 1140px;
+    margin-top: -485px;
+  }

@@ -1,0 +1,118 @@
+
+    /*ESTILO PADRÃO*/
+    
+    body, li, ul, p{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    font-size:25px;
+    font-family: "Doppio One", Montserrat, Arial ;
+    }
+    
+    a:hover{
+    background-color: #120487;
+    }
+    
+    
+     a{
+    cursor: pointer;
+    transition: 1s;
+    transition-timing-function: linear;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    }
+    
+    
+    .header { 
+    background:none;	
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    }
+    
+    
+    .menu{
+    display:flex;
+    }
+    
+    .menu li{
+    margin-left: 15px;
+    }
+    
+    .menu li a {
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    }
+    
+    
+    body{
+    width: 100%;
+    height: 100%;
+    background:#f1f1f1;
+    color:#03041F;
+    background-image:
+    url("../Imagens/marshmello-moving-on.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130% 135%;
+
+    }
+    
+    
+    
+    h1{
+    padding: 15px;
+    font-size: 35px;	
+    }
+    
+    
+    p{
+    text-align:left;
+    margin-top: -35px;
+    width: 430px;
+    padding: 45px;
+    font-size: 25px;
+    margin: 5px;
+    margin-left: 40px;
+
+    }
+     
+    
+    
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+
+     .albuns div a{
+     text-decoration:none;
+     background-color: #03041F;
+     }
+    
+
+    img{
+    max-width: 100%;
+    display: block;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 6px 20px 0 rgba(30, 29, 31, 0.9) ;
+    margin-left: 80px;  
+    }
+
+    .albuns{
+    display: flex;    
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
+
+    .albuns >div{
+    flex: 1 1 200px;  
+    margin-left: 80px;  
+    }

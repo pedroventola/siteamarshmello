@@ -1,0 +1,124 @@
+
+    /*ESTILO PADRÃO*/
+    
+    body, li, ul, p{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    font-size:25px;
+    font-family: "Doppio One", Arial ;
+    }
+    
+    a:hover{
+    background-color: #120487;
+  
+    }
+    
+    
+    a{
+    cursor: pointer;
+    transition: 1s;
+    transition-timing-function: linear;
+    padding: 5px
+    }
+    
+    
+    a{
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    }
+    
+    .header { 
+    background:none;	
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    }
+    
+    
+    .menu{
+    display:flex;
+    }
+    
+    .menu li{
+    margin-left: 15px;
+    }
+    
+    .menu li a {
+    display:block;
+    padding: 5px;
+    }
+    
+    
+    body{
+    width: 100%;
+    height: 100%;
+    background:#f1f1f1;
+    color:#03041F;
+    background-image:
+    url("../Imagens/marshmello-moving-on.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 130% 135%;
+    overflow-x: hidden;
+    }
+    
+    
+    
+    h1{
+    padding: 15px;
+    font-size: 40px;	
+    }
+    
+    
+    p{
+    text-align: left;
+    margin-top: -35px;
+    width: 400px;
+    padding: 45px;
+    font-size: 25px;
+    }
+     
+    
+    
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    
+    
+     /* PAGINA BIOGRAFIA */
+    
+    
+     .mello{
+      margin-left: 880px;
+      margin-right: auto;
+      margin-top:-550px;
+      width: 390px;
+      height: 230px;
+      box-shadow: 0px 6px 20px 0 rgba(30, 29, 31, 0.9) ;
+      }
+    
+    
+     .quarto{
+     
+      margin-left: 530px;
+      margin-right: auto;
+      margin-top:-360px;
+      width: 390px;
+      height: 210px;
+      box-shadow: 0px 6px 20px 0 rgba(30, 29, 31, 0.9) ;
+    }
+      
+      .show{
+      margin-left: 880px;
+      margin-right: auto;
+      margin-top:95px;
+      width: 390px;
+      height: 230px;
+      box-shadow: 0px 6px 20px 0 rgba(30, 29, 31, 0.9) ;
+      }
+    
+    
